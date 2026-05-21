@@ -13,9 +13,9 @@ export const RECIPE_DEFINITIONS: RecipeDefinition[] = [
   },
   {
     id: "first-aid-spray-recipe",
-    name: "Спрей (Herb + Chemical Fluid)",
+    name: "Спрей (Трава + Хімічна рідина)",
     ingredients: [
-      { itemId: "herb-green", count: 2 },
+      { itemId: "herb", count: 2 },
       { itemId: "chemical-fluid", count: 1 },
     ],
     result: { itemId: "spray", count: 1 },
