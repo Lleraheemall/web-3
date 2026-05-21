@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Інвентар — Resident Evil Requiem</title>
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <div id="app" class="app">
+      <header class="app-header">
+        <h1>Інвентар Resident Evil Requiem</h1>
+        <p class="app-subtitle">
+          Каталог зліва — усі предмети гри. Справа — сітка 10×8, крафт і апгрейди.
+        </p>
+      </header>
+      <main class="layout">
+        <aside class="panel panel-catalog" id="catalog-panel"></aside>
+        <section class="panel panel-inventory" id="inventory-panel"></section>
+      </main>
+      <div id="toast" class="toast" hidden></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
